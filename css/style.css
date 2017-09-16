@@ -1,0 +1,362 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Raleway Regular";
+	font-size: 25px;
+}
+
+.container {
+	width: 980px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #ffc054;
+	color: black;
+	padding: 20px;
+	border-bottom: 3px solid #f57e20;
+	border-radius: 4px;
+	transition: .3s ease;
+
+	font-size: 27px;
+}
+
+.btn:hover {
+	background-color: #f9a424;
+}
+
+.btn:active {
+	background-color: #f57e20;
+}
+
+.header {
+	background: url("../img/money.jpg");
+	background-size: cover;
+	opacity: .9;
+	color: white;
+	text-align: center;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.header h1 {
+	font-family: "Raleway Bold";
+}
+
+.main-line {
+	background-color: #2d5e6e;
+	color: white;
+	text-align: center;
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	line-height: 1.5;
+}
+
+.main-line-text {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.author {
+	background-color: #fffaf0;
+
+	font-weight: 400;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.author p {
+	width: 500px;
+}
+
+.author img {
+	border-radius: 5px;
+}
+
+.author-layout {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.results {
+	background-color: #fffaf0;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.results h2 {
+	text-align: center;
+
+	font-size: 35px;
+	font-family: "Raleway Bold";
+	font-weight: 500;
+
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+
+.earn {
+	background-color: #fffaf0;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.earn h2 {
+	font-size: 35px;
+	font-family: "Raleway Bold";
+	font-weight: 500;
+
+	margin-bottom: 100px;
+	margin-top: 0;
+}
+
+.earn-layout {
+	display: flex;
+	justify-content: space-between;
+}
+
+.earn-steps-item {
+	text-align: center;
+}
+
+.earn-steps-item p {
+	font-size: 18px;
+	width: 280px;
+
+	line-height: 1.5;
+}
+
+.earn-steps-item strong {
+	font-family: "Raleway SemiBold";
+	font-size: 23px;
+	font-weight: 300;
+}
+
+.earn-title,
+.earn-order {
+	text-align: center;
+}
+
+.earn-order p {
+	font-size: 30px;
+
+	margin-top: 70px;
+}
+
+.reviews {
+	background-color: #2d5e6e;
+	color: white;
+
+	padding-bottom: 25px;
+}
+
+.reviews h2 {
+	text-align: center;
+	font-size: 35px;
+	font-family: "Raleway Bold";
+	font-weight: 500;
+
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+.reviews-layout {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.reviews-item {
+	width: 450px;
+
+	padding-bottom: 40px;
+}
+
+.reviews-item span {
+	display: inline-block;
+	vertical-align: top;
+
+	font-family: "Raleway SemiBold";
+}
+
+.reviews-item p {
+	font-size: 18px;
+
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.reviews-item img {
+	border-radius: 5px;
+}
+
+.reviews-block-one {
+	padding-bottom: 10px;
+}
+
+.reviews-block-one img {
+	margin-right: 5px;
+}
+
+.reviews-block-two {
+	border: 1px solid black;
+	background-color: #fffaf0;
+	color: black;
+	border-radius: 5px;
+}
+
+.reviews-result {
+	background-color: #E6E6E6;
+	border-radius: 0 0 5px 5px;
+}
+
+.reviews-result img {
+	border-radius: 0;
+
+	padding-left: 10px;
+}
+
+.reviews-end {
+	font-family: "Raleway SemiBold";
+	font-size: 30px;
+}
+
+.questions {
+	background-color: #fffaf0;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.questions h2 {
+	text-align: center;
+
+	font-size: 35px;
+	font-family: "Raleway Bold";
+	font-weight: 500;
+
+	margin-bottom: 50px;
+	margin-top: 0;
+}
+
+.questions table {
+	border-collapse: collapse;
+
+	margin-bottom: 25px;
+}
+
+.questions td {
+	font-size: 20px;
+	padding: 15px;
+
+	border-bottom: 1px solid gray;
+}
+
+.bonus {
+	background-color: #2d5e6e;
+	color: white;
+	text-align: center;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.bonus h2 {
+	font-size: 35px;
+	font-family: "Raleway Bold";
+	font-weight: 500;
+
+	margin-bottom: 50px;
+	margin-top: 0;
+}
+
+.bonus img {
+	border-radius: 5px;
+}
+
+.bonus p {
+	margin-bottom: 30px;
+}
+
+.main-order {
+	background-color: #fffaf0;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.main-order img {
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.main-order .price-old {
+	text-decoration: line-through;
+	font-size: 40px;
+	color: gray;
+}
+
+.main-order .price-new {
+	font-size: 80px;
+}
+
+.discount {
+	color: #FF6347;
+
+	margin-top: 0;
+}
+
+.main-order-layout {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	background-color: #2d5e6e;
+	color: white;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.footer p {
+	font-size: 20px;
+
+	margin: 0;
+	padding: 0;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+
+	margin: 0;
+	padding: 0;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.footer-layout {
+	display: flex;
+	justify-content: space-between;
+}
